@@ -2,6 +2,7 @@
 #include <string.h>
 /**
  * function - to printf()
+ * Return: return value is 0
  *
  */
 int main(void)
