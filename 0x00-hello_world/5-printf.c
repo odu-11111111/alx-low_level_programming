@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+
 /**
- * function - to printf()
+ * main - to printf()
  * Return: return value is 0
  *
  */
