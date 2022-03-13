@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- * @brief Function to try puts()
+ * main - to try puts()
  * This is a function to print a string to the standard output.
- * @return 0
+ * return: 0
  */
 int main(void)
 {
