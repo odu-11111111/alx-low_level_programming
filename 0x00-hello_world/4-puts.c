@@ -4,7 +4,7 @@
 /**
  * main - to try puts()
  * This is a function to print a string to the standard output.
- * return: the function main returns int value 0
+ * Return: the function main returns int value 0
  */
 int main(void)
 {
