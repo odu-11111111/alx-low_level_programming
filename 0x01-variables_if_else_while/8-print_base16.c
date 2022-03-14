@@ -8,9 +8,9 @@ int main(void)
 {
 	char c;
 
-	for (c = 30; c <= 37; ++c)
+	for (c = 48; c <= 55; ++c)
 		putchar(c);
-	for (c = 41; c <=46; ++c)
+	for (c = 61; c <=66; ++c)
 		putchar(c);
 	putchar('\n');
 	return (0);
