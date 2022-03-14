@@ -4,11 +4,12 @@
  * main - function to putchar lowercase alphabets
  * Return: zero
  */
-int main() {
+int main(void) 
+{
 	char c;
 
 	for (c = 'a'; c <= 'z'; ++c)
 		putchar(c);
 	putchar(10);
-	return 0;
+	return (0);
 }
