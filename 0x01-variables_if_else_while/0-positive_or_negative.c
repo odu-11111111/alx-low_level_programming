@@ -8,11 +8,12 @@
 
 /**
  * main - function to printf random number
- * Return 0
+ * Return: return 0
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
