@@ -1,16 +1,17 @@
-int _putchar(char c);
+#include "main.h"
 
 /**
- * main -  a program that prints _putchar, followed by a new line.
- * Return: 0
- */
-int main(void)
+ ** print_alphabet - Check description
+ ** Description: it prints the alphabet in a lower case followed by a new line
+ ** Return: Nothing.
+ **/
+void print_alphabet(void)
 {
-	int c;
-	for (c = 61; c<= 122; ++c)
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		_putchar(c);
+		_putchar(alpha);
 	}
-	_putchar(10);
-	return (0);
+	_putchar('\n');
 }
