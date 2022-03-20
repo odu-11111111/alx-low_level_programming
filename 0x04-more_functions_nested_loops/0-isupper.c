@@ -2,7 +2,6 @@
 
 /**
  *_isupper - function that checks for uppercase character.
- *@i: increment variable.
  *@c: char variable to check
  *Return: 1 if c is uppercase, 0 otherwise
  */
