@@ -1,0 +1,30 @@
+0x04. C - More functions, more nested loops
+
+What are nested loops and how to use them?
+Nested loops are loops within other another loop. 
+Nested loops are used to make programs that allow two or more different sequences of events to be operated on.
+
+What is a function and how do you use functions?
+A function is a defined unit that has a return type, a name, zero or more parameters that define the kind of arguments it takes for it's operation and a block of codes that does something.
+
+What is the difference between a declaration and a definition of a function?
+The declaration of a function is the part of the function that states its prototype - the return type, the function name and the type of arguments it receives.
+The definition contains the prototype and the block of statements that are actually executed to do what the function does. 
+
+What is a prototype?
+A prototype is the part of a function that declares the return type, the function name and the type of arguments it receives.
+
+Scope of variables?
+The scope of a variable is the limits within a program which it is defined. Local variables are created when a function is initiated and destroyed when the function exits(returns). A static variable persists after the function returns. A global variable is always available during the running of the program. 
+
+What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
+gcc - GNU conpiler collections
+-Wall - activates all warnings
+-Werror - turn all warnings to errors
+-pendantic - Ensures conformation with ISO C
+-Wextra - activates warnings not ativated by Wall
+-std=gnu89 - A standard that indicates that the dialect gnu89 should be used for compilation.
+
+What are header files and how to to use them with #include
+Header files contains functions/prototype/macro definitions that can be used accross script. 
+#include is a directive to the preprocessor to include a header file in the current script. 
