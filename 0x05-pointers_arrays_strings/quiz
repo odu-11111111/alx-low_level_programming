@@ -1,0 +1,19 @@
+0x05. C - Pointers, arrays and strings
+What are pointers and how to use them?
+Pointers are variable to contains the memory address of another variable as their value.
+
+They are used to point to the location in memory of a variable. THey are also used to assign a value to the memory location when they are dereference. 
+
+What are arrays and how to use them?
+Arrays are a list of same type variable that have a contiguous memory addresses for the elements it contains. 
+Arrays are used to contain several same type variables in a single variable.
+
+What are the differences between pointers and arrays?
+Pointers are variables whose value are the address of another variable. An array on the other hand contain same type elements in contiguous memory location.
+
+How to use strings and how to manipulate them?
+Strings are array of characters which end with a null value as the value of the last memory address. Strings can be manipulated with some c functions including; strstr(), strcat(), etc...
+
+Scope of variables?
+Scope of a variable is the limit within a program in which it is defined and functional. 
+
