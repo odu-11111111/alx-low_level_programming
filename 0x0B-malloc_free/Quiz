@@ -1,0 +1,11 @@
+What is the difference between automatic and dynamic allocation
+Automatic memory allocation occurs when a variable of is declared, the compiler allocates memory automatically based on the declared type and operating system.
+
+What is malloc and free and how to use them
+malloc is used to allocate memory dynamically at runtime. It's prototype is void malloc(size_t). It returns the pointer to the memory block being allocated.
+ 
+Why and when use malloc
+malloc is useful when an unknow size of memory is needed to be allocated to variables at run time. For instance it is forbidden to allocate an unknown variable as the size of an array during declaration but with malloc pointers can be defined that ll take a size which is not predetermined at declaration.
+
+How to use valgrind to check for memory leak
+valgrind is used to check for memory leak by using valgrind file
